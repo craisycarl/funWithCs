@@ -16,5 +16,13 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+                checkBox1.Checked = false;
+            else
+                checkBox1.Checked = true;
+        }
     }
 }
